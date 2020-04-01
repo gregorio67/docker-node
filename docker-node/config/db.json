@@ -1,0 +1,33 @@
+{
+  "development": {
+    "username": "root",
+    "password": "admin123",
+    "database": "test",
+    "host": "127.0.0.1",
+    "port": 3301,
+    "dialect": "mariadb",
+    "operatorsAliases": false,
+    "pool" : {
+      "max": 10,
+      "min": 5,
+      "idle": 5000
+    },
+    "logging": true
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
