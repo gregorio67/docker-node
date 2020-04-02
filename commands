@@ -1,4 +1,17 @@
-1. Redis 
+1. npm
+
+   npm install -g sequelize --save :: ORM
+   npm install -g mariadb --save :: squelize for mariadb
+   npm install -g express --save : express
+   npm install -g express-session --save : express session
+   npm install -g uuid --save : uuid
+   npm install -g redis --save : redis
+   npm install -g body-parser --save : http request body parser
+   npm install -g ejs --save : view module
+
+    npm info ejs version : installed module version check
+
+2. Redis 
    - service redis-server start
    - redis-cli KEYS '*' : Get all keys
    - redif-cli ->
@@ -6,7 +19,7 @@
      ping : test for connection redis-server
 
 
-2. Docker
+3. Docker
    - docker build -t node-sample . : Build for docker image
    - docker run -p 13000:13000 -v /c/VScode/workspace/node-sample:/code --network local-net --name node-sample node-sample
    - docker stop node-sample
