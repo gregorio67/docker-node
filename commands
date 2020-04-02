@@ -1,0 +1,14 @@
+1. Redis 
+   - service redis-server start
+   - redis-cli KEYS '*' : Get all keys
+   - redif-cli ->
+     monotor : monitoring redis-server
+     ping : test for connection redis-server
+
+
+2. Docker
+   - docker build -t node-sample . : Build for docker image
+   - docker run -p 13000:13000 -v /c/VScode/workspace/node-sample:/code --network local-net --name node-sample node-sample
+   - docker stop node-sample
+   - docker start node-sample
+   - docker exec -it node-sample bash
