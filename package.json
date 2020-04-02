@@ -1,0 +1,39 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "npm": "6.13.7",
+    "node": "^13.10.1"
+  },
+  "scripts": {
+    "debuge": "node --nolazy --inspect-brk=9229 start.js",
+    "test": "make test",
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "and": "0.0.3",
+    "body-parser": "^1.19.0",
+    "bookshelf": "^1.1.1",
+    "connect-redis": "^4.0.4",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.17.0",
+    "knex": "^0.20.13",
+    "mariadb": "^2.3.1",
+    "morgan": "^1.10.0",
+    "package.json": "^2.0.1",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sequelize": "^5.21.5",
+    "uuid": "^7.0.3"
+  }
+}
